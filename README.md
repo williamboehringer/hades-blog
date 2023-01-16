@@ -11,4 +11,4 @@
 
 # 🚀 How to run?
 
-### You can simply download the repository and run the 'index.html' with your browser. Other option it's to open it with VS code and run using the 'Live Server' extension.
+### You can simply download the repository and run the 'index.html' with your browser. Another option it's to open it with VS code and run using the 'Live Server' extension.
