@@ -55,7 +55,7 @@ nav {
     background-color: lightgray;
     padding: 20px;
     position: sticky;
-    top: 78px;
+    top: 8.5%;
     text-align: center;
 }
 
@@ -66,7 +66,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    font-size: 24px;
+    font-size: 30px;
     text-align: center;
     margin: auto 2%;
 }
@@ -192,6 +192,10 @@ form input:valid {
         font-size: 40px;
     }
 
+    nav {
+        top: 6.4%;
+    }
+
     nav li {
         font-size: 24px;
     }
@@ -218,6 +222,14 @@ form input:valid {
 
     .banner h2 {
         font-size: 35px;
+    }
+    nav {
+        top: 5.3%;
+    }
+
+    article h2 {
+        color: #FF0000;
+        font-size: 40px;
     }
 }
 
@@ -262,5 +274,24 @@ form input:valid {
 
     nav li a {
         font-size: 20px;
+    }
+    .images li {
+        display: block;
+        max-width: 100%;
+    }
+
+    article h2 {
+        color: #FF0000;
+        font-size: 35px;
+    }
+
+    article p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    nav li a {
+        font-size: 17px;
     }
 }
